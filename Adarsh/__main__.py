@@ -1,11 +1,11 @@
 # (c) adarsh-goel
-import pyromod.listen
 import os
 import sys
 import glob
 import asyncio
 import logging
 import importlib
+from pyrogram import Client
 from pathlib import Path
 from pyrogram import idle
 from .bot import StreamBot
