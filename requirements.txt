@@ -1,7 +1,7 @@
 pyrofork
 tgcrypto
-aiohttp
-python-dotenv<=0.20.0
+aiohttp>=3.9.0
+python-dotenv
 motor
 aiofiles
 dnspython
