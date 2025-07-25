@@ -1,6 +1,5 @@
 # (c) adarsh-goel
 import pyromod.listen
-import p
 import os
 import sys
 import glob
