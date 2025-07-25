@@ -1,5 +1,8 @@
 # (c) adarsh-goel
 import pyromod.listen
+from pyrogram import Client as PyroClient
+PyroClient.__bases__ += (pyromod.listen.ClientMixin,)
+import p
 import os
 import sys
 import glob
